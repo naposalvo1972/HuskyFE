@@ -3,7 +3,7 @@ import React, { useEffect, useState } from "react";
 function Home() {
   const[numero1] = useState(null);
   useEffect(()=>{
-  const datamdb =  fetch('http://ec2-52-47-162-19.eu-west-3.compute.amazonaws.com:8080/ciao')
+  const datamdb =  fetch('http://ec2-52-47-162-19.eu-west-3.compute.amazonaws.com:8080/ciao',{mode:'no-cors'})
   .then(response => response.json())
   .then(data =>{ 
     this.setState({numero1:data.numero})  
