@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 
 function Home() {
-  const[numero1] = useState(null);
+  const[data,setData] = useState(null);
   useEffect(()=>{
     var opts = {
       headers: {
@@ -11,18 +11,16 @@ function Home() {
   const datamdb =  fetch('http://ec2-52-47-162-19.eu-west-3.compute.amazonaws.com:8080/ciao')
   .then(response => response.json())
   .then(data =>{ 
-    this.setState({numero1:data})  
-   
-  
+    console.log("num",data.numero);
+    //this.setState({numero1:data})
+    setData(data.numero)
   })},[]);
   return (
     <div className="home">
       <div className="container">
         <div className="row align-items-center my-5">
           <div className="col-lg-7">
-          {
-             numero1
-          }
+          Numero:{data}
           </div>
           <div className="col-lg-5">
             <h1 className="font-weight-light">Home page</h1>
