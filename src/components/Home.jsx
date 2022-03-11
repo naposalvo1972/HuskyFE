@@ -19,7 +19,7 @@ function Home() {
     <div className="home">
       <div className="container">
         <div className="row align-items-center my-5">
-          <div clclassNameass="col-lg-7">
+          <div className="col-lg-7">
           {
              numero1
           }
