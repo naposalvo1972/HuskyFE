@@ -8,10 +8,10 @@ function Home() {
         'mode':'no-cors'
       }
     }
-  const datamdb =  fetch('http://ec2-52-47-162-19.eu-west-3.compute.amazonaws.com:8080/ciao',opts)
+  const datamdb =  fetch('http://ec2-52-47-162-19.eu-west-3.compute.amazonaws.com:8080/ciao')
   .then(response => response.json())
   .then(data =>{ 
-    this.setState({numero1:data.numero})  
+    this.setState({numero1:data})  
    
   
   })},[]);
