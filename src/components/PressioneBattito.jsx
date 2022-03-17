@@ -8,10 +8,7 @@ function PressioneBattito() {
           <div className="col-lg-12">
               <h1 className="font-weight-light">Come sta ? Pressione e Battito</h1>
               <p>
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's standard dummy text
-                ever since the 1500s, when an unknown printer took a galley of
-                type and scrambled it to make a type specimen book.
+              HuskyMe! riconosce l'attività motoria del tuo amico e ti fornisce informazioni sul comportamento del tuo animale nell'arco della sua giornata Grazie ai sensori inseriti nel collare sarai sempre connesso e vicino al tuo peloso. Riceverai aggiornamenti sul suo stato di salute e conoscerai meglio i suoi bisogni in ogni momento.
               </p>
             </div>
           <div className="col-lg-6">

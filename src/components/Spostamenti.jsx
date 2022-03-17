@@ -8,10 +8,7 @@ function Spostamenti() {
         <div className="col-lg-12">
             <h1 className="font-weight-light">Dove sta il mio cane ?</h1>
             <p>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500s, when an unknown printer took a galley of
-              type and scrambled it to make a type specimen book.
+            Con HuskyMe! il tuo amico è sempre a portata di zampa Non temere di perderlo: grazie al GPS, puoi localizzare il tuo cucciolo in REAL TIME e a DISTANZA ILLIMITATA.
             </p>
           </div>
           <div className="col-lg-12">

@@ -9,10 +9,7 @@ function Diario() {
             <div className="col-lg-12">   
                 <h1 className="font-weight-light">Diario </h1> 
                     <p>
-                        Lorem Ipsum is simply dummy text of the printing and typesetting
-                        industry. Lorem Ipsum has been the industry's standard dummy text
-                        ever since the 1500s, when an unknown printer took a galley of
-                        type and scrambled it to make a type specimen book.
+                    Tieni sotto controllo l'alimentazione del tuo cane. Con il diario alimentare puoi inserire i pasti e le quantità del tuo cane e monitorare le calorie necessarie per il suo fabbisogno.
                     </p>
             </div>
             <div className="col-lg-6">

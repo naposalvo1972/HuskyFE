@@ -9,14 +9,12 @@ function Alert() {
             <div className="col-lg-12">   
                 <h1 className="font-weight-light">C'è qualche problema ? </h1> 
                     <p>
-                        Lorem Ipsum is simply dummy text of the printing and typesetting
-                        industry. Lorem Ipsum has been the industry's standard dummy text
-                        ever since the 1500s, when an unknown printer took a galley of
-                        type and scrambled it to make a type specimen book.
+                    Il dispositivo HuskyMe! ti permette di ricevere segnalazioni di eventuali anomalie relative alla salute del tuo cane: battiti cardiaci alterati o picchi di pressione alta, inviano dei segnali al tuo cellular per avvisarti che il tuo animale non sta bene.
                     </p>
             </div>
             <div className="col-lg-12">
-            <iframe className="responsive-iframe"  height="500" Style="background: #FFFFFF;border: none;border-radius: 2px;box-shadow: 0 2px 10px 0 rgba(70, 76, 79, .2);" src="https://charts.mongodb.com/charts-sogeihack_2-23-22-eworksh-fejtr/embed/charts?id=623320c4-a723-42f0-8ddd-784a494b8b4a&maxDataAge=3600&theme=light&autoRefresh=true"></iframe>
+               <iframe className="responsive-iframe"  height="500" Style="background: #FFFFFF;border: none;border-radius: 2px;box-shadow: 0 2px 10px 0 rgba(70, 76, 79, .2);"  src="https://charts.mongodb.com/charts-sogeihack_2-23-22-eworksh-fejtr/embed/charts?id=40696db1-a55d-47e8-ac3e-2911b2a72cb5&maxDataAge=3600&theme=light&autoRefresh=true"></iframe>
+            
             </div>
                
       </div>
