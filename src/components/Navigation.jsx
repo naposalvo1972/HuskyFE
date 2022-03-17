@@ -16,24 +16,40 @@ function Navigation() {
           </button>
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav ml-auto">
+            <li className="nav-item">
             <NavLink className="nav-link" to="/">
                 Home
                 <span className="sr-only">(current)</span>
             </NavLink>
-              <li className="nav-item">
-              <NavLink className="nav-link" to="/spostamenti">
-                        Spostamenti
-                      </NavLink>
+            </li>
+             <li className="nav-item">
+              <NavLink className="nav-link" to="/generale">
+                        Generale
+              </NavLink>
               </li>
-              <li className="nav-item dropdown">
+              <li className="nav-item">
               <NavLink className="nav-link" to="/comesta">
                         Come sta?
                       </NavLink>
               
               </li>
-              <NavLink className="nav-link" to="/blog">
-                        Blog
+              <li className="nav-item">
+              <NavLink className="nav-link" to="/spostamenti">
+                        Dove sta?
                       </NavLink>
+              </li>
+              
+              <li className="nav-item">
+              <NavLink className="nav-link" to="/alert">
+                        C'è qualche problema?
+              </NavLink>
+              </li>
+              <li className="nav-item">
+              <NavLink className="nav-link" to="/diario">
+                        Diario
+              </NavLink>
+              </li>
+
             </ul>
             
           </div>

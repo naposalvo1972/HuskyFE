@@ -3,6 +3,7 @@ export { default as Footer } from "./Footer";
 export { default as Home } from "./Home";
 export { default as Spostamenti } from "./Spostamenti";
 export { default as PressioneBattito } from "./PressioneBattito";
-export { default as Blog } from "./Blog";
-export { default as Posts } from "./blog/Posts";
-export { default as Post } from "./blog/Post";
+export { default as Alert } from "./Alert";
+export { default as Diario } from "./Diario";
+export { default as Generale } from "./Generale";
+

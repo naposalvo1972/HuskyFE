@@ -28,12 +28,67 @@ code {
   background-color: #6b65e0;
 }
 
+.bg-it-azure {
+  background-color:#dae5f9
+}
+.bg-it-acqua {
+  background-color:#d3eaf2
+}
+
+.bg-it-green {
+  background-color:#e9f2e9
+}
+
+.link-arrow-blu {
+  background-image: url(img/icon-arrow-blu.svg);
+}
+.link-arrow-black {
+  background-image: url(img/icon-arrow-black.png) !important;
+}
+
+.link-arrow {
+
+  background-position: 100%;
+  background-repeat: no-repeat;
+  font-weight: 700;
+  padding-right: 2rem;
+  text-decoration: none!important;
+}
+
+
+
+
+
+
+.img-husky {
+  width:25%;float:right;height: 300px;
+}
+
+#home h2 {
+  padding:10px;font-size: 5rem;
+}
+
+#home p{
+  padding: 10px;
+  font-size:1.5rem;
+}
+
 @media (min-width: 992px){
  .bg-spostamento {
-    background-image: url(img/cane.jpg);
+    
     background-position: right 16px top 45px;
     background-repeat: no-repeat;
     background-size: 545px !important;
     
+  }
+}
+@media (max-width: 768px){
+.img-husky {
+  width: 100%;
+  height: 300px;
+}
+#home h2 {
+  padding: 10px;
+  font-size: 3rem;
 }
 }
