@@ -1,19 +1,16 @@
 import React from "react";
 
-function Contact() {
+function PressioneBattito() {
   return (
     <div className="contact">
       <div className="container">
         <div className="row align-items-center my-5">
           <div className="col-lg-7">
-            <img
-              className="img-fluid rounded mb-4 mb-lg-0"
-              src="http://placehold.it/900x400"
-              alt=""
-            />
+          <iframe Style="background: #FFFFFF;border: none;border-radius: 2px;box-shadow: 0 2px 10px 0 rgba(70, 76, 79, .2);" width="640" height="480" src="https://charts.mongodb.com/charts-sogeihack_2-23-22-eworksh-fejtr/embed/charts?id=6231cbf5-aa9e-4bf6-8cf9-1abd29fff658&maxDataAge=3600&theme=light&autoRefresh=true"></iframe>
+
           </div>
           <div className="col-lg-5">
-            <h1 className="font-weight-light">Contact</h1>
+            <h1 className="font-weight-light">Pressione e Battito</h1>
             <p>
               Lorem Ipsum is simply dummy text of the printing and typesetting
               industry. Lorem Ipsum has been the industry's standard dummy text
@@ -27,4 +24,4 @@ function Contact() {
   );
 }
 
-export default Contact;
+export default PressioneBattito;

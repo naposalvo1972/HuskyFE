@@ -1,36 +1,23 @@
 import React, { useEffect, useState } from "react";
 
 function Home() {
-  const[data,setData] = useState(null);
-  useEffect(()=>{
-    var opts = {
-      headers: {
-        'mode':'no-cors'
-      }
-    }
-  const datamdb =  fetch('http://ec2-52-47-162-19.eu-west-3.compute.amazonaws.com:8080/ciao')
-  .then(response => response.json())
-  .then(data =>{ 
-    console.log("num",data.numero);
-    //this.setState({numero1:data})
-    setData(data.numero)
-  })},[]);
+ 
   return (
     <div className="home">
       <div className="container">
         <div className="row align-items-center my-5">
-          <div className="col-lg-7">
-          Numero:{data}
+          <h2 Style="">HUSKY ME!</h2>
+          <div className="col-lg-12">
+          <img Style="width:30%" src="img/dog-dog-fun.gif" />
           </div>
-          <div className="col-lg-5">
-            <h1 className="font-weight-light">Home page</h1>
-            <p>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500s, when an unknown printer took a galley of
-              type and scrambled it to make a type specimen book.
-            </p>
+          <section Style="min-height:500px" class="bg-it-3 bg-spostamento" id="spostamento">
+            <div class="container-fluid">
+            <h2 class="text-32 text-white col-lg-6 pl-0">
+              <small>Spostamenti</small> </h2>
+              <img Style="width:50%" src="mappa.jpg" />
           </div>
+
+          </section>
         </div>
       </div>
     </div>

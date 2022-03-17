@@ -11,11 +11,29 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
-a {
-  text-decoration: none;
-  color: black;
+
+
+.main-min-vh {
+  min-height: 60vh;
 }
-a:hover {
-  text-decoration: none;
-  color: rgba(0, 0, 0, 0.349);
+
+.responsive-iframe {
+  position: relative;
+
+  width: 100%;
+  
+}
+
+.bg-it-3 {
+  background-color: #6b65e0;
+}
+
+@media (min-width: 992px){
+ .bg-spostamento {
+    background-image: url(img/cane.jpg);
+    background-position: right 16px top 45px;
+    background-repeat: no-repeat;
+    background-size: 545px !important;
+    
+}
 }

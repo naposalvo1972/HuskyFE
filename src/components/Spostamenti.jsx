@@ -1,19 +1,15 @@
 import React from "react";
 
-function About() {
+function Spostamenti() {
   return (
     <div className="about">
       <div className="container">
         <div className="row align-items-center my-5">
           <div className="col-lg-7">
-            <img
-              className="img-fluid rounded mb-4 mb-lg-0"
-              src="http://placehold.it/900x400"
-              alt=""
-            />
+          <iframe className="responsive-iframe"  height="500" Style="background: #FFFFFF;border: none;border-radius: 2px;box-shadow: 0 2px 10px 0 rgba(70, 76, 79, .2);"  src="https://charts.mongodb.com/charts-sogeihack_2-23-22-eworksh-fejtr/embed/charts?id=622f5676-a038-4ac2-82dc-c27832e9f121&maxDataAge=3600&theme=light&autoRefresh=true"></iframe>
           </div>
           <div className="col-lg-5">
-            <h1 className="font-weight-light">About</h1>
+            <h1 className="font-weight-light">Dov'è il  mio cane ?</h1>
             <p>
               Lorem Ipsum is simply dummy text of the printing and typesetting
               industry. Lorem Ipsum has been the industry's standard dummy text
@@ -27,4 +23,4 @@ function About() {
   );
 }
 
-export default About;
+export default Spostamenti;
