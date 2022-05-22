@@ -9,7 +9,7 @@ function Diario() {
             <div className="col-lg-12">   
                 <h1 className="font-weight-light">Diario </h1> 
                     <p>
-                    Tieni sotto controllo l'alimentazione3 del tuo cane. Con il diario alimentare puoi inserire i pasti e le quantità del tuo cane e monitorare le calorie necessarie per il suo fabbisogno.
+                    Tieni sotto controllo l'alimentazione4 del tuo cane. Con il diario alimentare puoi inserire i pasti e le quantità del tuo cane e monitorare le calorie necessarie per il suo fabbisogno.
                     </p>
             </div>
             <div className="col-lg-6">
