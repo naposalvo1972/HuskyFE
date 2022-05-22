@@ -31,6 +31,7 @@ ReactDOM.render(
       <Route path="/alert" element={<Alert />} />
       <Route path="/diario" element={<Diario />} />
       
+        
 
     </Routes>
     <Footer />
