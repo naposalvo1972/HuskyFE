@@ -25,7 +25,7 @@ ReactDOM.render(
     <Routes>
       <Route path="/" element={<Home />} />
       <Route path="/generale" element={<Generale />} />
-        <Route path="/generale" element={<Generale />} />
+       
       <Route path="/spostamenti" element={<Spostamenti />} />
       <Route path="/comesta" element={<PressioneBattito />} />
       <Route path="/alert" element={<Alert />} />
