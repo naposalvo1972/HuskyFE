@@ -12,7 +12,7 @@ function Spostamenti() {
             </p>
           </div>
           <div className="col-lg-12">
-             <iframe className="responsive-iframe"  height="500" Style="background: #FFFFFF;border: none;border-radius: 2px;box-shadow: 0 2px 10px 0 rgba(70, 76, 79, .2);"  src="https://charts.mongodb.com/charts-sogeihack_2-23-22-eworksh-fejtr/embed/charts?id=622f5676-a038-4ac2-82dc-c27832e9f121&maxDataAge=10&theme=light&autoRefresh=true"></iframe>
+             <iframe title="auuua" className="responsive-iframe"  height="500" Style="background: #FFFFFF;border: none;border-radius: 2px;box-shadow: 0 2px 10px 0 rgba(70, 76, 79, .2);"  src="https://charts.mongodb.com/charts-sogeihack_2-23-22-eworksh-fejtr/embed/charts?id=622f5676-a038-4ac2-82dc-c27832e9f121&maxDataAge=10&theme=light&autoRefresh=true"></iframe>
           
           </div>
          
