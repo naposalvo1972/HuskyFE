@@ -19,7 +19,7 @@ function Generale() {
            <iframe className="responsive-iframe" height="300" Style="background: #FFFFFF;border: none;border-radius: 2px;box-shadow: 0 2px 10px 0 rgba(70, 76, 79, .2);"  src="https://charts.mongodb.com/charts-sogeihack_2-23-22-eworksh-fejtr/embed/charts?id=62330af9-cb8a-495f-868c-1d32093e7e9e&maxDataAge=3600&theme=light&autoRefresh=true"></iframe> 
         </div>
         <div className="col-lg-6">
-           <iframe className="responsive-iframe" height="300" Style="background: #FFFFFF;border: none;border-radius: 2px;box-shadow: 0 2px 10px 0 rgba(70, 76, 79, .2);"  src="https://charts.mongodb.com/charts-sogeihack_2-23-22-eworksh-fejtr/embed/charts?id=34f44995-331f-425b-8ea9-8fa273eaf7d8&maxDataAge=3600&theme=light&autoRefresh=true"></iframe>
+           <iframe title="" className="responsive-iframe" height="300" Style="background: #FFFFFF;border: none;border-radius: 2px;box-shadow: 0 2px 10px 0 rgba(70, 76, 79, .2);"  src="https://charts.mongodb.com/charts-sogeihack_2-23-22-eworksh-fejtr/embed/charts?id=34f44995-331f-425b-8ea9-8fa273eaf7d8&maxDataAge=3600&theme=light&autoRefresh=true"></iframe>
            
         </div>
 
