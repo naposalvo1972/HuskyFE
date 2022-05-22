@@ -5,6 +5,7 @@ import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import "../node_modules/bootstrap/dist/js/bootstrap.min.js";
 import "../node_modules/font-awesome/css/font-awesome.min.css"
 
+
 import * as serviceWorker from "./serviceWorker";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import {
@@ -24,6 +25,7 @@ ReactDOM.render(
     <Routes>
       <Route path="/" element={<Home />} />
       <Route path="/generale" element={<Generale />} />
+        <Route path="/generale" element={<Generale />} />
       <Route path="/spostamenti" element={<Spostamenti />} />
       <Route path="/comesta" element={<PressioneBattito />} />
       <Route path="/alert" element={<Alert />} />
